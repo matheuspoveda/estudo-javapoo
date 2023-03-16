@@ -28,7 +28,8 @@ jobs:
     needs: deploy-dev
     steps:
       - name: Run a one-line script
-        run: ls- la
+        run: npm install
+             npm test
 
 
   deploy-prd:
