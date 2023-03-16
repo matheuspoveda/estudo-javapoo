@@ -39,4 +39,4 @@ jobs:
     needs: deploy-hmg
     steps:
       - name: Run a one-line script
-        run: echo Deploy PRD
+        run: ls- la
