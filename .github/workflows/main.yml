@@ -28,7 +28,7 @@ jobs:
     needs: deploy-dev
     steps:
       - name: Run a one-line script
-        run: echo Deploy HMG
+        run: ls- la
 
 
   deploy-prd:
@@ -39,4 +39,4 @@ jobs:
     needs: deploy-hmg
     steps:
       - name: Run a one-line script
-        run: ls- la
+        run: echo Ola
